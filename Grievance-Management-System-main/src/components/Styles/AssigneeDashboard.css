@@ -1,0 +1,78 @@
+/* src/Styles/AssigneeDashboard.css */
+
+.assignee-dashboard {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.alert {
+    margin: 10px 0;
+    padding: 15px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.assignee-id-section,
+.update-status-section {
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.assignee-id-section input,
+.update-status-section input,
+.grievance-list-section button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.grievance-list-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.grievance-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grievance-item h4 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.grievance-item p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .assignee-dashboard {
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
